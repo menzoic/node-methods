@@ -14,5 +14,5 @@
     "name": "TJ Holowaychuk"
   },
   "license": "MIT",
-  "repository": { "type": "git", "url": "git://github.com/visionmedia/node-methods.git" }
+  "repository": { "type": "git", "url": "git://github.com/menzoic/node-methods.git" }
 }

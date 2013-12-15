@@ -1,19 +1,9 @@
-
-var http = require('http');
-
-if (http.METHODS) {
-  module.exports = http.METHODS.map(function(method){
-    return method.toLowerCase();
-  });
-
-  return;
-}
-
 module.exports = [
   'get',
   'post',
   'put',
   'head',
+  'del',
   'delete',
   'options',
   'trace',
